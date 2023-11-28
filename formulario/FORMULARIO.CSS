@@ -30,13 +30,6 @@ aside.right {
     background-color: #f2f2f2;
 }
 
-div.columnas {
-    margin: 20px;
-    box-sizing: border-box;
-    column-gap: 10px;
-    columns: 3;
-    
-}
 
 footer {
     clear: both;
@@ -46,28 +39,8 @@ footer {
     padding: 10px;
 }
 
-.column {
-    margin-bottom: 20px;
-    padding: 15px;
-    break-inside: avoid;
-}
-
 .areacont {
    text-align: center;
-   text-decoration: underline;
-}
-
-.aficiones{
-    columns: 2;
-}
-.viajar {
-    float: left;
-    padding: 10px;
-}
-
-.deportes {
-    float: right;
-    padding: 10px;
 }
 
 h2{
