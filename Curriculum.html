@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="estilos/curriculum.css">
+    <link rel="stylesheet" href="estilos/principal.css">
 </head>
 <body>
 
@@ -12,35 +12,38 @@
         <h1>Curriculum Vitae</h1>
     </header>
 
-    <aside class="left">
+    <aside class="leftcurri">
         <h2>Mi sitio Web</h2>
-            <nav>
-                <ul>
-                    <li><a href="/home/usertar/Documentos/jmartinezgaspar.github.io/proyfloat/formulario.html">Formulario</a></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </nav>
+        <nav>
+          <ul>
+              <li><a href="index.html">Mi Sitio Web</a></li>
+              <li><a href="formulario.html">Formulario</a></li>
+              <li><a href="Curriculum.html">Curriculum Vitae</a></li>
+              <li><a href="Documentacion.html">Documentacion</a></li>
+          </ul>
+      </nav>
         <!-- Contenido del lateral izquierdo -->
     </aside>
 
-    <aside class="right">
+    <aside class="rightcurri">
         <h2>Redes Sociales</h2>
         <!-- Contenido del lateral derecho -->
-           <ul>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
-           </ul>
+        <ul>
+          <li> <a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+          <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+          <li><a href="https://facebook.com/" target="_blank">Facebook</a></li>
+     </ul>
+     
            
     </aside>
 
     <main>
-        <div>
-            
+      <img class="fotocv" src="img/fotocurri.jpeg" alt="foto del cV">
+        <div class="temp">
+          
             <h2>Datos personales</h2>
 
-                <table>
+                <table  class="tablascurri">
                     <tr>
                         <th>Nombre</th>
                         <td>Javier Martinez Gaspar</td>
@@ -62,7 +65,7 @@
       
         
           <h2>Educación</h2>
-          <table>
+          <table class="tablascurri">
             <thead>
               <tr>
                 <th>Institución</th>
@@ -72,20 +75,20 @@
             </thead>
             <tbody>
               <tr>
-                <td>Institución 1</td>
-                <td>Grado 1</td>
-                <td>Fecha 1</td>
+                <td>I.E.S. VILLABLANCA</td>
+                <td>Administracion de sistemas y redes</td>
+                <td>2018/2019</td>
               </tr>
               <tr>
-                <td>Institución 2</td>
-                <td>Grado 2</td>
-                <td>Fecha 2</td>
+                <td>UNIVERSIDAD POLITÉCNICA DE MADRID</td>
+                <td>Ingenería Informática</td>
+                <td>2023/2024</td>
               </tr>
               <!-- Agrega más filas según sea necesario -->
             </tbody>
           </table>
           <h2>Experiencia Laboral</h2>
-          <table>
+          <table  class="tablascurri">
             <thead>
               <tr>
                 <th>Empresa</th>
@@ -95,20 +98,25 @@
             </thead>
             <tbody>
               <tr>
-                <td>Empresa 1</td>
-                <td>Puesto 1</td>
-                <td>Fecha 1</td>
+                <td>IECISA</td>
+                <td>Coordinador de Explotacion de sistemas</td>
+                <td>2019/2022</td>
               </tr>
               <tr>
-                <td>Empresa 2</td>
-                <td>Puesto 2</td>
-                <td>Fecha 2</td>
+                <td>Sermicro</td>
+                <td>Ingeniero de desarrollo</td>
+                <td>2022/Actualidad</td>
               </tr>
               <!-- Agrega más filas según sea necesario -->
             </tbody>
+            
           </table>
+
         </div>
-         
+        <video controls poster="/img/fotocurri.jpeg" class="videocurri">
+          <source src="videocurri.mp4" type="video/mp4">
+        </video>
+        
     </main>
 
     <footer>
