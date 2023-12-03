@@ -247,16 +247,18 @@ input[type="button"] {
 
 .documento {
     margin-left: 650px;
-    margin-top: 300px;
+    margin-top: 200px;
     
 }
 .documento2 {
-    margin-left: 5cm;
-   
-    margin-right: auto;
+height: 450px;
+width: 200px;
+margin-left: 10cm;
 }
 
 .listadocu {
     color:black;
 }
+
+
 
