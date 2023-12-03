@@ -5,7 +5,8 @@ body {
     margin: 0;
  
 }
-/*  uso margin 0 para que desaparezcan los margenes del body que comprende toda la pagina */
+/*  uso margin 0 para que desaparezcan los margenes del 
+body que comprende toda la pagina */
 header {
     background-color: #333;
     color: #fff;
@@ -23,7 +24,7 @@ aside {
     width: 16%;
     padding: 20px;
 }
-/* Cogemos el 20% del margen del contenedor padre para dar el
+/* Cogemos el 16% del margen del contenedor padre para dar el
     ancho deseado a los laterales agrega un relleno (espacio interno)
      de 20 píxeles en todas las direcciones (arriba, derecha, abajo 
      e izquierda) al elemento <aside>. El relleno aumenta el espacio 
@@ -45,6 +46,11 @@ aside.right {
     text-decoration: underline;
 
 }
+/* para colocar un aside en cada lado les di la clase,
+le coloque el float para que se colocaran cada uno al lado
+una altura predeterminada,el mismo color de fondo para que la 
+apariencia sea igual,un espaciado entre lineas de 2 y que
+el texto dentro apareciera subrayado */
 
 aside.left h2 {
     text-align: center;
@@ -55,7 +61,8 @@ aside.right h2 {
     text-align: center;
 }
 
-
+/* uso esta etiqueta para que centre el contenido 
+horizontalmente los h2 */
 
 footer {
     clear: both;
@@ -64,10 +71,15 @@ footer {
     text-align: center;
     padding: 10px;
 }
+/* Establece el color de fondo, el color del texto,
+ centra el contenido horizontalmente, agrega un relleno 
+ alrededor del contenido y especifica que el pie de página 
+ debe aparecer debajo de cualquier elemento flotante.*/
 
 a:hover {
     color: blueviolet;
  }
+
  
  a {
      color: blue;
@@ -75,6 +87,10 @@ a:hover {
  ul {
     list-style-type:square;
  }
+/* a:hover para cuando el raton pase por encima cambie de color
+a color para que aparezca en el color seleccionado y el list
+style type para que aparezca un cuadrado en vez de un círculo */
+
 /* index */
 
 .columnas {
@@ -83,71 +99,90 @@ a:hover {
     column-gap: 10px;
     columns: 3;    
 }
-
+/* Establece un margen exterior de 
+20 píxeles alrededor del contenedor,
+ border box para que el tamaño total del contenedor se mantenga
+constante incluso si se agrega relleno o bordes. 
+column gap establece la separación entre las columnas dentro del contenedor
+y columns para el numero de columnas deseado en el contenedor */
 .column {
-    margin-bottom: 20px;
     padding: 15px;
-    break-inside: avoid;
 }
+/*  Agrega un relleno de 15 píxeles alrededor del contenido del elemento.  */
 
 .areacont {
    text-align: center;
    text-decoration: underline;
    letter-spacing: 1px;
-
 }
+/* lo he usado para los encabezados y subencabezados para 
+alinearlos horizontalmente,que aparezcan subrayados con un espacio
+entre letras de un pixel */
 
 .aficiones{
     columns: 2;
 }
+
+/* en el contenedor con clase aficiones para que haya dos columnas */
 .viajar {
     float: left;
     padding: 10px;
-
 }
 
 .deportes {
     float: right;
     padding: 10px;
 }
-
+/* he añadido las fotos con float para posicionarlas
+en dos columnas y usado padding */
 figcaption {
     text-align: center;
 }
+/* para el pie de foto se alinee en el centro con la misma */
+
 /* curriculum vitae */
   table {
     border-collapse: collapse;
-    margin-left: auto;   
+    margin-left: auto;  
+    margin-right: auto; 
   }
-
+/* bordes de las celdas se combinan, es decir, 
+no hay espacio entre las celdas adyacentes
+y el margin auto a cada lado para que me lo centre horizontalmente */
   div.temp h2 {
     text-align: center;
     text-decoration: underline;
   }
+
+/* alinear y subrayar los encabzados */
+
   th, td {
     padding: 12px;
     border: 1px solid #333;
     text-align: left;
   }
-
+/* Define un borde alrededor de cada celda con un grosor de 1 píxel,
+ un estilo sólido, Esto crea una separación visual entre las celdas. */
   th {
     background-color: #f2f2f2;
   }
+  /* color de fondo */
 
 
-.tablascurri {
-   
-    margin-right: auto;
-}
+
 
  .fotocv {
     text-align: center;
     height: 5cm;
     width: 4cm;
-    margin-left: 10cm;
+    margin-left: 10.5cm;
     margin-top: 1cm;
     
 }
+
+/*  con height(alto) y width(ancho) le damos tamaño a la foto
+y usamos los margin esta vez con centimetros para centrar la imagen
+a nuestro gusto*/
 
 .leftcurri{
     float: left;
@@ -165,12 +200,17 @@ figcaption {
     text-decoration: underline;
 }
 
+/* tenemos en esta pagina clases para los aside
+ya que vamos a necesitar mas alto para esta página
+en concreto */
+
 aside.rightcurri h2 {
     text-align: center;
 }
 aside.leftcurri h2 {
     text-align: center;
 }
+/* centramos subencabezados  */
 
 video {
     height: 280px;
@@ -178,19 +218,26 @@ video {
     margin-left: 300px;
     margin-top: 50px;
 }
+/* damos tamaño al video y posicionamiento al video */
 /* formulario */
 
 label{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: bold;
     color: #333;
 }
 
+/* tamaño de fuente,italic para cursiva,bold negrita y color */
+
+
 input[type="button"] {
     cursor:pointer;
   }
+
+  /* para que al pasar por el boton se ponga el dedo */
+
+
 /* documentacion */
 
 .fondodocu {
