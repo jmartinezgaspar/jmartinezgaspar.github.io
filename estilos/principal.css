@@ -251,10 +251,12 @@ input[type="button"] {
     
 }
 .documento2 {
-    margin-left: 650px;
-    margin-bottom: 500px;
+    margin-left: 5cm;
+   
+    margin-right: auto;
 }
 
 .listadocu {
     color:black;
 }
+
