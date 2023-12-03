@@ -162,6 +162,13 @@ aside.rightcurri h2 {
 aside.leftcurri h2 {
     text-align: center;
 }
+
+video {
+    height: 280px;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
 /* formulario */
 
 label{
@@ -180,4 +187,5 @@ input[type="button"] {
 .fondodocu {
     background-image: url(../img/nuevofondo.jpg);
 }
+
 
